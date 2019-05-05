@@ -1,6 +1,5 @@
 # Testing (Data, Faker, etc....)
 
-![License](https://img.shields.io/packagist/l/corex/testing.svg)
 ![Build Status](https://travis-ci.org/corex/testing.svg?branch=master)
 ![codecov](https://codecov.io/gh/corex/testing/branch/master/graph/badge.svg)
 
