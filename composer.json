@@ -1,7 +1,7 @@
 {
     "name": "corex/testing",
     "type": "library",
-    "description": "Testing (PHPUnit, Faker, etc....)",
+    "description": "Testing (Data, Faker, etc....)",
     "license": "MIT",
     "authors": [
         {

@@ -1,4 +1,4 @@
-# Testing helpers (PHPUnit, Faker, etc....)
+# Testing (Data, Faker, etc....)
 
 ![License](https://img.shields.io/packagist/l/corex/testing.svg)
 ![Build Status](https://travis-ci.org/corex/testing.svg?branch=master)
