@@ -130,6 +130,20 @@ class TestData
     }
 
     /**
+     * Person.
+     *
+     * @return mixed[] (id, firstname, lastname)
+     */
+    public static function person(): array
+    {
+        return [
+            'id' => self::faker()->numberBetween(1, 100),
+            'firstname' => self::faker()->firstName,
+            'lastname' => self::faker()->lastName
+        ];
+    }
+
+    /**
      * Generate string.
      *
      * @param int $length

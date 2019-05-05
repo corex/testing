@@ -95,6 +95,17 @@ class TestDataTest extends TestCase
     }
 
     /**
+     * Test person.
+     */
+    public function testPerson(): void
+    {
+        $person = TestData::person();
+        $this->assertIsInt($person['id']);
+        $this->assertIsString($person['firstname']);
+        $this->assertIsString($person['lastname']);
+    }
+
+    /**
      * Check if string contains characters.
      *
      * @param string $characterMap
