@@ -114,7 +114,8 @@ class TestData
      */
     public static function people(int $count = 10): array
     {
-        $numbers = self::numbers(0, $count);
+        $numbers = self::numbers(1, $count);
+        shuffle($numbers);
         $result = [];
         if ($count > 0) {
             for ($c1 = 0; $c1 < $count; $c1++) {
